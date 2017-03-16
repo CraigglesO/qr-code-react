@@ -53,9 +53,8 @@ export default class QRcodeReact extends Component {
       for (let c = 0; c < qr.getModuleCount(); c += 1) {
         qrColumn.push(
           <td key={""+c} style={{
-            borderWidth: margin + "px",
-            borderStyle: "solid",
-            borderColor: bgColor,
+            borderWidth: "0px",
+            borderStyle: "none",
             borderCollapse: "collapse",
             padding: "0px",
             margin: "0px",
@@ -78,8 +77,9 @@ export default class QRcodeReact extends Component {
       <table
         className={ className }
         style={ {
-          borderWidth: "0px",
-          borderStyle: "none",
+          borderWidth: margin + "px",
+          borderStyle: "solid",
+          borderColor: bgColor,
           borderCollapse: "collapse",
           padding: "0px",
           margin: margin + "px",
