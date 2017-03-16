@@ -1,0 +1,30 @@
+{
+  "name": "qr-code-react",
+  "version": "1.1.0",
+  "description": "react component for qr-codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CraigglesO/qr-code-react.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "qr",
+    "code",
+    "qr-code"
+  ],
+  "author": "Craig OConnor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CraigglesO/qr-code-react/issues"
+  },
+  "homepage": "https://github.com/CraigglesO/qr-code-react#readme",
+  "dependencies": {
+    "qrcode-npm": "0.0.3",
+    "react": "^15.4.2"
+  }
+}
