@@ -62,6 +62,9 @@ static defaultProps = {
 };
 ```
 
+- **typeNumber**: 1 to 10
+- **errorCorrectLevel**: 'L','M','Q','H'
+
 
 ## Install
 

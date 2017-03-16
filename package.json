@@ -1,10 +1,20 @@
 {
   "name": "qr-code-react",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "react component for qr-codes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "rc-tools run test",
+    "build": "rc-tools run build",
+    "gh-pages": "rc-tools run gh-pages",
+    "start": "rc-tools run server",
+    "pub": "rc-tools run update-self && rc-tools run pub",
+    "lint": "rc-tools run lint",
+    "karma": "rc-tools run karma",
+    "saucelabs": "rc-tools run saucelabs",
+    "chrome-test": "rc-tools run chrome-test",
+    "coverage": "rc-tools run coverage",
+    "prepublish": "rc-tools run guard"
   },
   "repository": {
     "type": "git",
@@ -25,6 +35,7 @@
   "homepage": "https://github.com/CraigglesO/qr-code-react#readme",
   "dependencies": {
     "qrcode-npm": "0.0.3",
+    "rc-tools": "^5.11.3",
     "react": "^15.4.2"
   }
 }
