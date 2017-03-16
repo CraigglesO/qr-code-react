@@ -1,6 +1,8 @@
 # qr-code-react
 ==========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/CraigglesO/qr-code-react.svg)](https://greenkeeper.io/)
+
 This is an npm module ported from [HERE](https://github.com/cmanzana/qrcode-npm) to work for React.
 
 This was to fix the issues involving `dangerouslySetInnerHTML`.
