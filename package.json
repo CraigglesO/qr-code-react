@@ -1,6 +1,6 @@
 {
   "name": "qr-code-react",
-  "version": "1.1.2",
+  "version": "1.1.5",
   "description": "react component for qr-codes",
   "main": "index.js",
   "scripts": {
